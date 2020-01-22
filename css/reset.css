@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+header, main, footer,
+div,
+h1, h2, p, span,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
