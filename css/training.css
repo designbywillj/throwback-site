@@ -1,0 +1,34 @@
+.box-container {
+    margin: -1rem;
+    clear: both;
+}
+
+.box-container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.box {
+    width: calc(50% - 3rem);
+	margin: 1rem;
+	padding: 1.5rem;
+    border: 8px ridge black;
+    float: left;
+}
+
+.box.box--red {
+	border-color: red;
+}
+
+.box.box--green {
+	border-color: green;
+}
+
+.box.box--blue {
+	border-color: blue;
+}
+
+.box.box--purple {
+	border-color: purple;
+}
