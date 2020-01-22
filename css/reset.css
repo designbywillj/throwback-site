@@ -1,19 +1,17 @@
-* {
+*, :before, :after {
     box-sizing: border-box;
-}
-
-html, body,
-header, main, footer,
-div,
-h1, h2, p, span,
-blockquote {
     margin: 0;
-    padding: 0;
 }
 
 html, body {
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
     font-family: Inter, Arial, sans-serif;
     font-size: 100%;
+    color: #000000;
 }
 
 h1 {
@@ -22,4 +20,8 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
 }
