@@ -48,13 +48,17 @@ main > article {
 	float: left;
 }
 
+.article__img {
+	width: 100%;
+}
+
 main > aside {
 	width: 320px;
 	padding-left: 1.5rem;
 	float: right;
 }
 
-main > aside:after {
+main:after {
 	content: '';
 	display: table;
 	clear: both;
