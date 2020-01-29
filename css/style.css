@@ -42,20 +42,12 @@ main {
 	padding: 1.5rem;
 }
 
-main > article {
-	width: calc(100% - 320px);
-	padding-right: 1.5rem;
-	float: left;
-}
-
 .article__img {
 	width: 100%;
 }
 
 main > aside {
-	width: 320px;
-	padding-left: 1.5rem;
-	float: right;
+	margin-top: 3rem;
 }
 
 main:after {
@@ -82,4 +74,19 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media only screen and (min-width: 720px) {
+	main > article {
+		width: calc(100% - 320px);
+		padding-right: 1.5rem;
+		float: left;
+	}
+
+	main > aside {
+		width: 320px;
+		margin-top: 0;
+		padding-left: 1.5rem;
+		float: right;
+	}
 }
